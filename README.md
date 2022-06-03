@@ -2,7 +2,7 @@
 
 This plugin is an adaptation of
 [jairemix](https://github.com/jairemix) [cordova-plugin-migrate-localstorage](https://github.com/jairemix/cordova-plugin-migrate-localstorage)
-to allow for the migration of LocalStorage from `UIWebView` to `WKWebView` when updating an old app using [cordova ios v6.1.x](https://github.com/ionic-team/cordova-plugin-ionic-webview) and scheme.
+to allow for the migration of LocalStorage from WKWebView-Plugin to `WKWebView` when updating an old app using [cordova ios v6.1.x](https://github.com/ionic-team/cordova-plugin-ionic-webview) and scheme.
 
 All related files will be copied over automatically on first install so the user can simply pick up where they left of.
 
@@ -16,7 +16,7 @@ In your `config.xml`, add a scheme (the new file name will depends on this schem
 
 Simply add the plugin to your cordova project via the cli:
 ```sh
-cordova plugin add https://github.com/viglino/cordova-plugin-migrate-localstorage
+cordova plugin add https://github.com/SmartHomePartner/cordova-plugin-migrate-localstorage
 ```
 
 ## Notes
